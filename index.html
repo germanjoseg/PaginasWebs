@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css" />
+  </head>
+  <body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+      <header>
+        <div class="logo">
+          <a href="#">German Gleria</a>
+        </div>
+        <nav id="nav">
+          <ul>
+            <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+            <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+            <li><a href="#skills" onclick="seleccionar()">HABILIDADES</a></li>
+            <li>
+              <a href="#curriculum" onclick="seleccionar()">CURRICULUM</a>
+            </li>
+            <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+            <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+          </ul>
+        </nav>
+        <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+      <div class="contenido-banner">
+        <div class="contenedor-img">
+          <img src="img/Yo.png" alt="" />
+        </div>
+        <h1>GERMAN GLERIA</h1>
+        <h2>Diseñador Gráfico Desarrollador de Videojuegos</h2>
+        <div class="redes">
+          <a href="https://www.facebook.com/german.gleria/"
+            ><i class="fa-brands fa-facebook-f"></i
+          ></a>
+          <a href="https://www.instagram.com/gleria.arg/"
+            ><i class="fa-solid fa-camera"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/germangleria/"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+      <div class="contenido-seccion">
+        <h2>Sobre Mí</h2>
+        <p>
+          <span>Hola, soy Germán Gleria.</span> Soy de Misiones, Argentina tengo 30 años, me recibi de Diseñador Gráfico y hace mas de 5 años que trabajo en el rubro del diseño gráfico. 
+          Actualmente estoy estudiando Desarrollo de Videojuegos en la UADE. Soy una persona creativa, responsable, compañero, objetivo, detallista, perseverante y siempre dispuesto 
+          a aprender nuevas herramientas y habilidades, que me ayude a crecer como profesional y como persona
+        </p>
+        <div class="fila">
+          <!-- datos personales -->
+          <div class="col">
+            <h3>Datos Personales</h3>
+            <ul>
+              <li>
+                <strong>Cumpleaños</strong>
+                09-01-1993
+              </li>
+              <li>
+                <strong>Teléfono</strong>
+                11-73654866
+              </li>
+              <li>
+                <strong>Email</strong>
+                german_gleria@hotmail.com
+              </li>
+              <li>
+                <strong>Behance</strong>
+                www.behance.net/german_glec86f
+              </li>
+              <li>
+                <strong>Dirección</strong>
+                Arenales 2257, Capital Federal.
+              </li>
+              <li>
+                <strong>Cargo</strong>
+                <span>FREELANCE</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- intereses -->
+          <div class="col">
+            <h3>Intereses</h3>
+            <div class="contenedor-intereses">
+              <div class="interes">
+                <i class="fa-solid fa-gamepad"></i>
+                <span>JUEGOS</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-headphones"></i>
+                <span>MUSICA</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-plane"></i>
+                <span>VIAJAR</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-camera"></i>
+                <span>FOTOS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button>
+          Descargar CV <i class="fa-solid fa-download"></i>
+          <span class="overlay"></span>
+        </button>
+      </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+      <div class="contenido-seccion">
+        <h2>Habilidades</h2>
+        <div class="fila">
+          <!-- Technical Skill -->
+          <div class="col">
+            <div class="skill">
+              <span>ADOBE ILLUSTRATOR</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>100%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>ADOBE PHOTOSHOP</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>90%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>ADOBE AFTER EFFECTS</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>85%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>ADOBE INDESIGN</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>75%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>COREL DRAW</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>100%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Professional Skills -->
+          <div class="col">
+            <div class="skill">
+              <span>UNITY</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>90%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>UNREAL ENGINE</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>70%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>AUTODESK MAYA</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>90%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>BLENDER</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>80%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>ADOBE SUBSTANCE 3D PAINTER</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>80%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+      <div class="contenido-seccion">
+        <h2>Curriculum</h2>
+        <div class="fila">
+          <div class="col izquierda">
+            <h3>Educación y Cursos</h3>
+            <div class="item izq">
+              <h4>
+                Nivel secundario - Educación polimodal modalidad humanidades y
+                ciencias sociales
+              </h4>
+              <span class="casa">Instituto Privado Carlos Linneo</span>
+              <span class="fecha">Completo - 24 de Febrero de 2011</span>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+            <div class="item izq">
+              <h4>Carrera de Diseño Gráfico</h4>
+              <span class="casa">Facultad de Arte y Diseño UNAM</span>
+              <span class="fecha">Completo - 20 de Diciembre de 2018</span>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+            <div class="item izq">
+                <h4>Licenciatura Universitaria en Desarollo de Vidoejuegos</h4>
+                <span class="casa">Universidad Argentina de la Empresa</span>
+                <span class="fecha">En curso</span>
+                <div class="conectori">
+                  <div class="circuloi"></div>
+                </div>
+              </div>
+            <div class="item izq">
+              <h4>4tas Jornadas Internacionales "Diseño de Acá"</h4>
+              <span class="casa">Facultad de Arte y Diseño UNAM</span>
+              <span class="fecha">Septiembre de 2011</span>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+            <div class="item izq">
+                <h4>Expositor en la muestra institucional "índice Simbólico"</h4>
+                <span class="casa">Facultad de Arte y Diseño UNAM</span>
+                <span class="fecha">Noviembre - Diciembre 2011</span>
+                <div class="conectori">
+                  <div class="circuloi"></div>
+                </div>
+              </div>
+              <div class="item izq">
+                <h4>Curso "Actualización en producción gráfica</h4>
+                <span class="casa">Facultad de Arte y Diseño UNAM</span>
+                <span class="fecha">Mayo de 2012</span>
+                <div class="conectori">
+                  <div class="circuloi"></div>
+                </div>
+              </div>
+              <div class="item izq">
+                <h4>Asistente en el sexto encuentro latinoamericano de docentes de diseño</h4>
+                <span class="casa">Facultad de Arte y Diseño UNAM</span>
+                <span class="fecha">Junio de 2013</span>
+                <div class="conectori">
+                  <div class="circuloi"></div>
+                </div>
+              </div>
+              <div class="item izq">
+                <h4>Alumno en el taller virtual en red disur</h4>
+                <span class="casa">Facultad de Arte y Diseño UNAM</span>
+                <span class="fecha">Octubre de 2017</span>
+                <div class="conectori">
+                  <div class="circuloi"></div>
+                </div>
+              </div>
+              <div class="item izq">
+                <h4>Expositor en la muestra institucional "Acroma"</h4>
+                <span class="casa">Facultad de Arte y Diseño UNAM</span>
+                <span class="fecha">Diciembre de 2016 - Febrero de 2017</span>
+                <div class="conectori">
+                  <div class="circuloi"></div>
+                </div>
+              </div>
+              <div class="item izq">
+                <h4>Taller introducción al manejo de Cinema 4D</h4>
+                <span class="casa">Facultad de Arte y Diseño UNAM</span>
+                <span class="fecha">Junio - Agosto de 2018</span>
+                <div class="conectori">
+                  <div class="circuloi"></div>
+                </div>
+              </div>
+              <div class="item izq">
+                <h4>Participante del Globan Game Jam 2021</h4>
+                <span class="casa">Facultad de Arte y Diseño UNAM</span>
+                <span class="fecha">Noviembre - Diciembre 2011</span>
+                <div class="conectori">
+                  <div class="circuloi"></div>
+                </div>
+              </div>
+              <div class="item izq">
+                <h4>Curso #SeProgramar de Argentina Programa 4.0</h4>
+                <span class="casa">Universidad Tres de Febrero</span>
+                <span class="fecha">Abril de 2023</span>
+                <div class="conectori">
+                  <div class="circuloi"></div>
+                </div>
+              </div>
+          </div>
+          <div class="col derecha">
+            <h3>Experiencia de trabajo</h3>
+            <div class="item der">
+              <h4>Diseñador Gráfico</h4>
+              <span class="casa">Instituto Privado Carlos Linneo</span>
+              <span class="fecha">2020 - 2023</span>
+              <p>
+                Redes sociales - Branding coorporativo - Diseño de pagina web - UX/UI
+              </p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+            <div class="item der">
+              <h4>Diseñador Gráfico</h4>
+              <span class="casa">Pascualito Barra de Cereal Artesanal</span>
+              <span class="fecha">2016 - 2018</span>
+              <p>
+                Rediseño marca gráfica - Iconografía - Packaging - Etiquetas
+                - Modelado 3D - Animacion - Redes sociales
+              </p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+            <div class="item der">
+                <h4>Diseñador Gráfico</h4>
+                <span class="casa">A tu boca</span>
+                <span class="fecha">2017 - 2018</span>
+                <p>
+                  Rediseño marca gráfica - Redes sociales - Flyers
+                </p>
+                <div class="conectord">
+                  <div class="circulod"></div>
+                </div>
+              </div>
+              <div class="item der">
+                <h4>Diseñador Gráfico</h4>
+                <span class="casa">Cometas</span>
+                <span class="fecha">2014 - 2016</span>
+                <p>
+                  Redes sociales
+                </p>
+                <div class="conectord">
+                  <div class="circulod"></div>
+                </div>
+              </div>
+            <div class="item der">
+              <h4>Diseñador Gráfico</h4>
+              <span class="casa">Yvyra Retá Jardín Botánico</span>
+              <span class="fecha">2013 - 2014</span>
+              <p>
+                Diseño de marca gráfica - Infografía
+              </p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+      <div class="contenido-seccion">
+        <h2>PORTFOLIO</h2>
+        <div class="galeria">
+          <div class="proyecto">
+            <img src="img/2 de abril-02-02-02-02-02.jpg" alt="" />
+            <div class="overlay">
+              <h3>Diseño Gráfico</h3>
+              <p>Redes sociales</p>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="img/Dia del Estudiante-07.jpg" alt="" />
+            <div class="overlay">
+              <h3>Diseño Gráfico</h3>
+              <p>Redes sociales</p>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="img/Bolsa 1.jpg" alt="" />
+            <div class="overlay">
+              <h3>Diseño Gráfico</h3>
+              <p>Merchandising</p>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="img/Sin título-1-03.jpg" alt="" />
+            <div class="overlay">
+              <h3>Diseño Gráfico</h3>
+              <p>Packaging y Etiquetas</p>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="img/Sin título-1-02.jpg" alt="" />
+            <div class="overlay">
+              <h3>Diseño Gráfico</h3>
+              <p>Modelado 3D</p>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="img/Sin título-1_Mesa de trabajo 1.jpg" alt="" />
+            <div class="overlay">
+              <h3>Diseño Gráfico</h3>
+              <p>Modelado 3D</p>
+            </div>
+          </div>
+          <div class="galeria">
+            <div class="proyecto">
+              <img src="img/Dia de la Escarapela_Mesa de trabajo 1.jpg" alt="" />
+              <div class="overlay">
+                <h3>Diseño Gráfico</h3>
+                <p>Redes sociales</p>
+              </div>
+            </div>
+            <div class="proyecto">
+              <img src="img/Dia de la Mujer_Mesa de trabajo 1.jpg" alt="" />
+              <div class="overlay">
+                <h3>Diseño Gráfico</h3>
+                <p>Redes sociales</p>
+              </div>
+            </div>
+            <div class="proyecto">
+              <img src="img/Barco Post de Instagram.jpg" alt="" />
+              <div class="overlay">
+                <h3>Diseño Gráfico</h3>
+                <p>Redes sociales</p>
+              </div>
+            </div>
+            <div class="proyecto">
+              <img src="img/A tu boca_Mesa de trabajo 1.jpg" alt="" />
+              <div class="overlay">
+                <h3>Diseño Gráfico</h3>
+                <p>Rediseño Marca Gráfica</p>
+              </div>
+            </div>
+            <div class="proyecto">
+              <img src="img/Feed Vale-02.jpg" alt="" />
+              <div class="overlay">
+                <h3>Diseño Gráfico</h3>
+                <p>Redes sociales</p>
+              </div>
+            </div>
+            <div class="proyecto">
+              <img src="img/Vale icono.jpg" alt="" />
+              <div class="overlay">
+                <h3>Diseño Gráfico</h3>
+                <p>Marca gráfica</p>
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+      <div class="contenido-seccion">
+        <h2>CONTACTO</h2>
+        <div class="fila">
+          <!-- Formulario -->
+          <div class="col">
+            <input type="text" placeholder="Tú Nombre" />
+            <input type="text" placeholder="Número telefónico" />
+            <input type="text" placeholder="Dirección de correo" />
+            <input type="text" placeholder="Tema" />
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Mensaje"
+            ></textarea>
+            <button>
+              Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+              <span class="overlay"></span>
+            </button>
+          </div>
+          <!-- Mapa -->
+          <div class="col">
+            <img src="img/Desktop Screenshot 2023.09.03 - 05.15.07.92.jpg" alt="" />
+            <div class="info">
+              <ul>
+                <li>
+                  <i class="fa-solid fa-location-dot"></i>
+                    Arenales 2257, BsAs
+                </li>
+                <li>
+                  <i class="fa-solid fa-mobile-screen"></i>
+                  Celular: 11-73654866
+                </li>
+                <li>
+                  <i class="fa-solid fa-envelope"></i>
+                  Email: german_gleria@hotmail.com
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <a href="#inicio" class="arriba">
+        <i class="fa-solid fa-angles-up"></i>
+      </a>
+      <div class="redes">
+        <a href="https://www.facebook.com/german.gleria/"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/gleria.arg/"><i class="fa-solid fa-camera"></i></a>
+        <a href="https://www.linkedin.com/in/germangleria/"><i class="fa-brands fa-linkedin-in"></i></a>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
