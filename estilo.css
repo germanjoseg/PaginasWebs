@@ -248,6 +248,8 @@ a {
   font-weight: bold;
   display: block;
   margin-bottom: 10px;
+  
+
 }
 .skills .skill .barra-skill {
   height: 8px;
@@ -275,30 +277,21 @@ a {
   right: -15px;
   font-size: 14px;
 }
-/* Estas clases se agregaran dinamicamente mediante javascript */
-.skills .skill .javascript {
+/* Estas clases se agregaran dinamicamente mediante illustrator
+ */
+.skills .skill .illustrator
+ {
   width: 0%;
-  animation: 2s javascript forwards;
+  animation: 2s illustrator
+   forwards;
 }
-@keyframes javascript {
+@keyframes illustrator
+ {
   0% {
     width: 0%;
   }
   100% {
     width: 100%;
-  }
-}
-
-.skills .skill .htmlcss {
-  width: 0%;
-  animation: 2s htmlcss forwards;
-}
-@keyframes htmlcss {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 90%;
   }
 }
 
@@ -311,15 +304,31 @@ a {
     width: 0%;
   }
   100% {
-    width: 80%;
+    width: 90%;
   }
 }
 
-.skills .skill .wordpress {
+.skills .skill .aftereffects
+ {
   width: 0%;
-  animation: 2s wordpress forwards;
+  animation: 2s aftereffects
+   forwards;
 }
-@keyframes wordpress {
+@keyframes aftereffects
+ {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 85%;
+  }
+}
+
+.skills .skill .indesign {
+  width: 0%;
+  animation: 2s indesign forwards;
+}
+@keyframes indesign {
   0% {
     width: 0%;
   }
@@ -328,11 +337,11 @@ a {
   }
 }
 
-.skills .skill .drupal {
+.skills .skill .coreldraw {
   width: 0%;
-  animation: 2s drupal forwards;
+  animation: 2s coreldraw forwards;
 }
-@keyframes drupal {
+@keyframes coreldraw {
   0% {
     width: 0%;
   }
@@ -341,24 +350,12 @@ a {
   }
 }
 
-.skills .skill .comunicacion {
-  width: 0%;
-  animation: 2s comunicacion forwards;
-}
-@keyframes comunicacion {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 90%;
-  }
+.skills .skill .csharp {
+  width: 10%;
+  animation: 2s csharp forwards;
 }
 
-.skills .skill .trabajo {
-  width: 0%;
-  animation: 2s trabajo forwards;
-}
-@keyframes trabajo {
+@keyframes csharp {
   0% {
     width: 0%;
   }
@@ -367,11 +364,25 @@ a {
   }
 }
 
-.skills .skill .creatividad {
-  width: 0%;
-  animation: 2s creatividad forwards;
+.skills .skill .html5 {
+  width: 10%;
+  animation: 2s html5 forwards;
 }
-@keyframes creatividad {
+
+@keyframes html5 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
+.skills .skill .unity {
+  width: 0%;
+  animation: 2s unity forwards;
+}
+@keyframes unity {
   0% {
     width: 0%;
   }
@@ -380,11 +391,37 @@ a {
   }
 }
 
-.skills .skill .dedicacion {
+.skills .skill .unrealengine {
   width: 0%;
-  animation: 2s dedicacion forwards;
+  animation: 2s unrealengine forwards;
 }
-@keyframes dedicacion {
+@keyframes unrealengine {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+.skills .skill .maya {
+  width: 0%;
+  animation: 2s maya forwards;
+}
+@keyframes maya {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+.skills .skill .blender {
+  width: 0%;
+  animation: 2s blender forwards;
+}
+@keyframes blender {
   0% {
     width: 0%;
   }
@@ -393,11 +430,12 @@ a {
   }
 }
 
-.skills .skill .proyect {
+.skills .skill .substancepainter {
   width: 0%;
-  animation: 2s proyect forwards;
+  animation: 2s substancepainter forwards;
 }
-@keyframes proyect {
+
+@keyframes substancepainter {
   0% {
     width: 0%;
   }
@@ -405,6 +443,35 @@ a {
     width: 80%;
   }
 }
+
+.skills .skill .ingles {
+  width: 10%;
+  animation: 2s ingles forwards;
+}
+
+@keyframes ingles {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
+}
+
+.skills .skill .portugues {
+  width: 10%;
+  animation: 2s portugues forwards;
+}
+
+@keyframes portugues {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
 /* SECCION CURRICULUM */
 .curriculum {
   background-color: #1e2326;
