@@ -351,7 +351,7 @@ a {
 }
 
 .skills .skill .csharp {
-  width: 10%;
+  width: 0%;
   animation: 2s csharp forwards;
 }
 
@@ -445,7 +445,7 @@ a {
 }
 
 .skills .skill .ingles {
-  width: 10%;
+  width: 0%;
   animation: 2s ingles forwards;
 }
 
@@ -459,7 +459,7 @@ a {
 }
 
 .skills .skill .portugues {
-  width: 10%;
+  width: 0%;
   animation: 2s portugues forwards;
 }
 
