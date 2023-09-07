@@ -496,6 +496,12 @@ html{
     width: 100%;
     display: block;
 }
+
+.portfolio .galeria .proyecto video{
+    width: 100%;
+    display: block;
+}
+
 .portfolio .galeria .proyecto .overlay{
     position: absolute;
     top: 0;
