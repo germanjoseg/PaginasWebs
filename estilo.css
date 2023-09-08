@@ -34,7 +34,7 @@ a {
 .contenedor-header header .logo a {
   font-family: "Righteous";
   font-size: 36px;
-  color: #1cb698;
+  color: #ac425c;
   text-decoration: none;
 }
 .contenedor-header header ul {
@@ -50,10 +50,10 @@ a {
   text-decoration: none;
 }
 .contenedor-header header nav ul li a:hover {
-  color: #1cb698;
+  color: #ac425c;
 }
 .nav-responsive {
-  background-color: #1cb698;
+  background-color: #ac425c;
   color: #fff;
   padding: 5px 10px;
   border-radius: 5px;
@@ -62,11 +62,7 @@ a {
 }
 /* SECCION I N I C I O */
 .inicio {
-  background: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(img/Portada\ Facebook.jpg);
   background-size: 134%;
   height: 100vh;
@@ -84,7 +80,7 @@ a {
 }
 .inicio .contenido-banner img {
   margin-top: 40px;
-  border: 10px solid #1cb698;
+  border: 10px solid #ac425c;
   display: block;
   width: 80%;
   margin: auto;
@@ -113,7 +109,7 @@ a {
   transition: 0.3s;
 }
 .inicio .contenido-banner .redes a:hover {
-  background-color: #1cb698;
+  background-color: #ac425c;
 }
 .sobremi {
   background-color: #1e2326;
@@ -136,7 +132,7 @@ a {
   margin-bottom: 20px;
 }
 .sobremi .contenido-seccion p span {
-  color: #1cb698;
+  color: #ac425c;
   font-weight: bold;
 }
 .sobremi .fila {
@@ -158,11 +154,11 @@ a {
 }
 .sobremi .fila .col ul li strong {
   display: inline-block;
-  color: #1cb698;
+  color: #ac425c;
   width: 130px;
 }
 .sobremi .fila .col ul li span {
-  background-color: #1cb698;
+  background-color: #ac425c;
   padding: 3px;
   font-weight: bold;
   border-radius: 5px;
@@ -184,7 +180,7 @@ a {
   transition: 0.3s;
 }
 .sobremi .fila .col .contenedor-intereses .interes:hover {
-  background-color: #1cb698;
+  background-color: #ac425c;
 }
 .sobremi .fila .col .contenedor-intereses .interes i {
   font-size: 30px;
@@ -209,7 +205,7 @@ a {
   left: 0;
   width: 0;
   height: 100%;
-  background-color: #1cb698;
+  background-color: #ac425c;
   z-index: -1;
   transition: 1s;
 }
@@ -248,8 +244,6 @@ a {
   font-weight: bold;
   display: block;
   margin-bottom: 10px;
-  
-
 }
 .skills .skill .barra-skill {
   height: 8px;
@@ -259,7 +253,7 @@ a {
   margin-bottom: 30px;
 }
 .skills .skill .progreso {
-  background-color: #1cb698;
+  background-color: #ac425c;
   position: absolute;
   top: 0;
   left: 0;
@@ -269,7 +263,7 @@ a {
   position: absolute;
   height: 40px;
   width: 40px;
-  background-color: #1cb698;
+  background-color: #ac425c;
   border-radius: 50px;
   line-height: 40px;
   text-align: center;
@@ -279,14 +273,11 @@ a {
 }
 /* Estas clases se agregaran dinamicamente mediante illustrator
  */
-.skills .skill .illustrator
- {
+.skills .skill .illustrator {
   width: 0%;
-  animation: 2s illustrator
-   forwards;
+  animation: 2s illustrator forwards;
 }
-@keyframes illustrator
- {
+@keyframes illustrator {
   0% {
     width: 0%;
   }
@@ -308,14 +299,11 @@ a {
   }
 }
 
-.skills .skill .aftereffects
- {
+.skills .skill .aftereffects {
   width: 0%;
-  animation: 2s aftereffects
-   forwards;
+  animation: 2s aftereffects forwards;
 }
-@keyframes aftereffects
- {
+@keyframes aftereffects {
   0% {
     width: 0%;
   }
@@ -518,30 +506,30 @@ a {
   margin-bottom: 10px;
 }
 .curriculum .fila .item .casa {
-  color: #1cb698;
+  color: #ac425c;
   font-size: 22px;
   font-weight: bold;
   display: block;
 }
 .curriculum .fila .item .fecha {
   display: block;
-  color: #1cb698;
+  color: #ac425c;
   margin-bottom: 10px;
 }
 .curriculum .fila .item p {
   line-height: 24px;
 }
 .curriculum .fila .izq {
-  border-right: 2px solid #1cb698;
+  border-right: 2px solid #ac425c;
   margin-right: 20px;
 }
 .curriculum .fila .der {
-  border-left: 2px solid #1cb698;
+  border-left: 2px solid #ac425c;
   margin-left: 20px;
 }
 .curriculum .fila .item .conectori {
   height: 2px;
-  background-color: #1cb698;
+  background-color: #ac425c;
   width: 47px;
   position: absolute;
   top: 50%;
@@ -553,14 +541,14 @@ a {
   height: 10px;
   width: 10px;
   border-radius: 50%;
-  background-color: #1cb698;
+  background-color: #ac425c;
   float: right;
   position: relative;
   bottom: 4px;
 }
 .curriculum .fila .item .conectord {
   height: 2px;
-  background-color: #1cb698;
+  background-color: #ac425c;
   width: 47px;
   position: absolute;
   top: 50%;
@@ -572,7 +560,7 @@ a {
   height: 10px;
   width: 10px;
   border-radius: 50%;
-  background-color: #1cb698;
+  background-color: #ac425c;
   float: left;
   position: relative;
   bottom: 4px;
@@ -621,7 +609,7 @@ a {
   width: 100%;
   height: 100%;
   text-align: center;
-  background: linear-gradient(rgba(28, 182, 152, 0.8), rgba(28, 182, 152, 0.8));
+  background: linear-gradient(rgba(182, 28, 79, 0.8), rgba(182, 28, 79, 0.8));
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -695,7 +683,7 @@ a {
   left: 0;
   width: 0;
   height: 100%;
-  background-color: #1cb698;
+  background-color: #ac425c;
   z-index: -1;
   transition: 1s;
 }
@@ -721,7 +709,7 @@ a {
   margin-bottom: 20px;
 }
 .contacto .col .info ul li i {
-  color: #1cb698;
+  color: #ac425c;
   display: inline-block;
   margin-right: 20px;
 }
@@ -753,7 +741,7 @@ footer .arriba {
   display: block;
   width: 50px;
   height: 50px;
-  background-color: #1cb698;
+  background-color: #ac425c;
   color: #fff;
   position: absolute;
   left: 50%;
